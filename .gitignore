@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# dotenv environment variables file (build for Zeit Now)
+.env
+.env.build
+
+# Vs Code
+.vscode/
