@@ -1,34 +1,122 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>GOOGLE - CLONE</h1>
 
-## Getting Started
+<br />
 
-First, run the development server:
+<!-- PROJECT LOGO -->
+<p  align="center">
+    <a href="#">
+        <img src="public/favicon.png" alt="Logo" width="200" height="200">
+    </a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<!-- ABOUT THE PROJECT -->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About The Project
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<!-- Screenshot -->
+<div align="center">
+    <img src="/public/website-screenshot.png" width="500px"</img> 
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Google Clone (Link)](https://google-clone-eight-iota.vercel.app/)
 
-## Learn More
+<!-- Built with section -->
 
-To learn more about Next.js, take a look at the following resources:
+## Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Frameworks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Tailwind - CSS](https://tailwindcss.com/)
+- [React - Javascript](https://reactjs.org/)
+- [NEXT - Javascript](https://nextjs.org/)
 
-## Deploy on Vercel
+### Add-Ons/Plugins:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Multi-line truncation with @tailwindcss/line-clamp](https://blog.tailwindcss.com/multi-line-truncation-with-tailwindcss-line-clamp)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- GETTING STARTED -->
+
+# Getting Started
+
+This project was bootstrapped with [Create Next App](https://create-next-app.js.org/).
+
+### Prerequisites
+
+You will need a node in your system.
+
+- npm
+
+  ```sh
+  npm install npm@latest -g
+  ```
+
+- Verify Installation
+
+  ```sh
+  node -v
+  ```
+
+- Install yarn
+
+  ```sh
+  npm install --global yarn
+  ```
+
+- Verify yarn
+  ```sh
+  yarn --version
+  ```
+
+### Installation
+
+1. Get a free API Keys at [Custom Search API](https://developers.google.com/custom-search/v1/using_rest), [Context Key](https://cse.google.com/cse/create/new)
+
+2. Clone GitHub repo
+
+   ```sh
+   git clone https://github.com/thearpitanand/google-clone.git
+   ```
+
+3. Install NPM packages
+
+   ```sh
+   yarn install
+   ```
+
+4. Create file `.env.local` then enter your API Keys.
+
+   ```sh
+   GOOGLE_CUSTOM_SEARCH_API_KEY="Enter_Your_Custom_Search_API_Key"
+   CONTEXT_API_KEY="Enter_Your_Context_API_Key"
+   ```
+
+5. Run the app in the development mode.
+
+   ```sh
+   yarn dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+<!-- Disclaimer -->
+
+## DISCLAIMER
+
+Your suggestions are highly acknowledged. [Open issue](https://github.com/thearpitanand/google-clone/issues)
+
+<!-- CONTACT -->
+
+## Contact
+
+Name - Arpit Anand\
+Twitter - [@the_arpitanand](https://twitter.com/the_arpitanand)\
+LinkedIn - [@thearpitanand](https://www.linkedin.com/in/thearpitanand/)
+
+
+## Deployed on Vercel
+
+Deployed Next.js app on to the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) which is from the creators of Next.js. [Live Link](https://google-clone-eight-iota.vercel.app/).
+
+Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
