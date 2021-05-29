@@ -39,6 +39,3 @@ yarn-error.log*
 
 # Vs Code
 .vscode/
-
-# Request Dummy Data File
-Response.js

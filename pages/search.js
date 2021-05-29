@@ -2,12 +2,12 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Header from "../components/Header";
 import SearchResults from "../components/SearchResults";
-import { API_KEY, CONTEXT_KEY } from "../Keys";
+import { API_KEY, CONTEXT_KEY } from "../keys";
 import Response from "../Response";
 
 const Search = ({ results }) => {
   const router = useRouter();
-  console.log(results);
+  // console.log(results);
   return (
     <div>
       <Head>
@@ -25,7 +25,11 @@ const Search = ({ results }) => {
 export default Search;
 
 export async function getServerSideProps(context) {
-  const useDummyData = true;
+  // Request data for once and then save that object data in the
+  // file -"../Response" then turn the useDummyData to "True" this
+  // can save your data request which is currently limited to 100
+  // request per day.
+  const useDummyData = false;
 
   const startIndex = context.query.start || "0";
 
