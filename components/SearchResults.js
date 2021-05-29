@@ -1,3 +1,5 @@
+import PaginationButton from "./PaginationButton";
+
 const SearchResults = ({ results }) => {
   return (
     <div className="w-full px-3 mx-auto sm:pl-[5%] md:pl-[14%] lg:pl-52">
@@ -20,6 +22,7 @@ const SearchResults = ({ results }) => {
           <p className="line-clamp-2">{result.snippet}</p>
         </div>
       ))}
+      <PaginationButton />
     </div>
   );
 };
