@@ -110,9 +110,12 @@ Your suggestions are highly acknowledged. [Open issue](https://github.com/thearp
 
 ## Contact
 
-Name - Arpit Anand\
-Twitter - [@the_arpitanand](https://twitter.com/the_arpitanand)\
-LinkedIn - [@thearpitanand](https://www.linkedin.com/in/thearpitanand/)
+Name - Arpit Anand
+Unsplash - [@thearpitanand](https://unsplash.com/@thearpitanand)
+Twitter - [the_arpitanand](https://twitter.com/the_arpitanand)
+LinkedIn - [thearpitanand](https://www.linkedin.com/in/thearpitanand/)
+Instagram - [anand_arpit](https://www.instagram.com/anand_arpit/)
+
 
 
 ## Deployed on Vercel
